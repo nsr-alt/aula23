@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1, .btn{
+    margin-top: 150px;
+}
+.btn, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mais{
+    background-color: rgb(0, 179, 0);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.menos{
+    background-color: rgb(167, 39, 39);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.reset{
+    background-color: rgb(0, 113, 179);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
